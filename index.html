@@ -1,0 +1,39 @@
+<head>
+  <script src="d3js_3.5.17__rickshaw_1.3.0.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="rickshaw.css">
+
+</head>
+<body>
+  <h1>Hacked together replay tool for the rat tracker</h1>
+  <hr/>
+  <h2>Select log file : <input type="file" name="dataInput" id="dataInput" accept="text/*"></h2>
+  <hr/>
+
+  <h4>YPR</h4>
+  <h4>Delta</h4>
+  <div id="yprDelta"></div>
+  <h4>Values</h4>
+  <div id="ypr"></div>
+  <hr/>
+
+  <h4>Acceleration</h4>
+  <h4>Delta</h4>
+  <div id="accelerationDelta"></div>
+  <h4>Values</h4>
+  <div id="acceleration"></div>
+  <hr/>
+
+  <h4>Status</h4>
+  <div id="status"></div>
+  <hr/>
+
+  <h4>Debug</h4>
+  <h4>Time Delta</h4>
+  <div id="time" style="clear:both"></div>
+  <h4>Raw output</h4>
+  <div id="data1" style="width:300px; float: left;"></div>
+  <div id="data2" style="width:300px; float: left;"></div>
+  <div id="data3" style="width:300px; float: left;"></div>
+  <script src="replay.js" type="text/babel"></script>
+</body>

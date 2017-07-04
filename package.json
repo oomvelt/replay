@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node ./node_modules/serve/bin/serve.js -o"
+  },
+  "dependencies": {
+    "serve": "^6.0.0"
+  }
+}
